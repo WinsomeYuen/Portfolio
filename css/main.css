@@ -19,6 +19,16 @@ a:hover {
   border: .05rem solid #fff;
 }
 
+#accordion{
+  max-width: 70em;
+  padding-bottom: 10px;
+}
+
+.card{
+  max-width: 70em;
+  margin-top: 10px;
+}
+
 
 /*
  * Base structure
