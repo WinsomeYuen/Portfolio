@@ -23,7 +23,7 @@
 html,
 body {
   height: 100%;
-  background-color: #333;
+  background-color: #F09294;
 }
 
 body {
@@ -50,6 +50,8 @@ ul{
 
 .masthead-brand {
   margin-bottom: 0;
+  font-family: 'Megrim', cursive;
+  font-weight: bold;
 }
 
 .nav-masthead .nav-link {
