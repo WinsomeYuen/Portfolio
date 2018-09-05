@@ -1,0 +1,39 @@
+.skill{
+    background-color: #F2F2F2;
+    padding: 30px;
+}
+.skill h1{
+    color: #FA8B91;
+    padding-bottom: 10px;
+}
+.skill h5{
+    padding-left: 20px;
+}
+.skill div .col{
+    float: left;
+    width: 25%;
+    text-align: center;
+    padding: 20px 0 10px;
+}
+.skill div .col:hover{
+    background-color: powderblue;
+    color: #FA8B91;
+    padding-right: 30px;
+}
+.skill div .col:hover h3{
+    color: #797979;
+}
+.skill ul{
+    list-style: none;
+}
+.skill h3{
+    color: powderblue;
+    padding-left: 15px;
+}
+@media (max-width: 700px){
+    .skill div .col{
+        width: 100%;
+        text-align: center;
+        padding: 20px 0 10px;
+    }
+}

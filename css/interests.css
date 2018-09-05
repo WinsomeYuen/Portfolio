@@ -1,0 +1,48 @@
+.interests{
+    background-color: #FA8B91;
+}
+/*Features*/
+.box{
+    padding: 30px 30px 60px;
+}
+.interests .container-fluid{
+    margin: 40px auto 10px;
+    padding: 20px 40px;
+    max-width: 1100px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    border-top: 5px solid #8B7CB8;
+    background-color: #F2F2F2;
+}
+.features-header {
+    margin: -20px -16px 40px;
+    padding: 50px 50px 0;
+    color: #999;
+}
+.interests h6{
+    color: #818181;
+}
+.features-header h2{
+    color: #1488CC;
+}
+.features-image{
+    padding-top: 30px;
+}
+.features-description{
+    padding-top: 50px;
+    padding-right: -50px;
+}
+.features-description-p{
+    padding: 0 0 10px;
+}
+/* Mobile Only */
+@media (max-width: 767px) {
+    .features-header {
+        text-align: center;
+        padding-bottom: 5px;
+    }
+    .features-description {
+        padding-top: 30px;
+        text-align: left;
+        width: 100%;
+    }
+}
