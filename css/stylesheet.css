@@ -21,7 +21,7 @@ body{
   background: #f1f1f1; /* Track */
 }
 ::-webkit-scrollbar-thumb {
-  background: #FA8B91; /* Handle */
+  background: #8B7CB8; /* Handle */
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #555; /* Handle on hover */

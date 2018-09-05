@@ -24,11 +24,12 @@
 .features-header h2{
     color: #1488CC;
 }
-.features-image{
+.features-image img{
     padding-top: 30px;
+    max-width: 380px;
 }
 .features-description{
-    padding-top: 50px;
+    padding-top: 100px;
     padding-right: -50px;
 }
 .features-description-p{
