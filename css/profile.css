@@ -53,3 +53,9 @@
         width: 300px;
     }
 }
+
+@media (max-width: 450px) {
+    .column-profile img{
+        max-width: 200px;
+    }
+}
