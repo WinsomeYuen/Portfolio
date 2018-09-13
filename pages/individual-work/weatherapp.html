@@ -31,11 +31,11 @@
       });
   </script>
 </head>
-<body class="text-center">
+<body>
 <div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
   <div id="navbar"></div>
 
-  <div>
+  <div class="text-center">
     <h1>Water Watch</h1>
     <div class="btn-group btn-group-sm" role="group" aria-label="...">
       <button type="button" class="btn" disabled>React</button>
@@ -45,21 +45,83 @@
       <button type="button" class="btn" disabled>Prototype</button>
     </div>
     <hr>
-    <p>This was a 3 month project created for my graphical user interface module at university working
-      in a group of 5. I was the Lead Developer for the group. Below are the initial design mockups/wireframes we
-      came up with when researching stakeholders, coming up with requirements and planning the roadmap.
+  </div>
+  <div>
+    <h3 class="title">Requirements and Design</h3>
+    <div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-*">
+          <h4 class="subtitle">Primary Stakeholder</h4>
+          <p class="para">People who participate in water sport is our primary stakeholder because
+            there has been a huge increase on people taking up a water sport activity and weather is a
+            key factor. Research into the background demographic for boating and water sports, showed
+            that there was an increase of 2 million more participants in 2016 and over 14.3 million people
+            partaking in any water sport activity. With a 10% increase of participation in non-seasonal
+            times of year when the weather is more temperamental, the weather plays an important role for
+            people partaking in water sport activities. <p>
+          <h4 class="subtitle">Data Gathering</h4>
+          <p class="para">We decided to collect data using a Questionnaire via Google Form (example on the right);
+            it is an online platform, making it faster to process. We can obtain data from a large sample pool as
+            it can be distributed easily to a wide range of people from various locations. The majority of the questions
+            are closed to make it quick for people to fill out and this means that data analysis can be more effectively
+            carried out on the answers.</p>
+        </div>
+        <div class="col-md-5 col-md-offset-* text-center">
+          <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSf4zLwVggnrSkwqgc_VQePFtntFGzxtTQNRaoLQn9l5p_rtiQ/viewform?embedded=true" width="450" height="550" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+        </div>
+      </div>
+    </div>
+    <h4 class="subtitle">Results</h4>
+    <p>To find survey participants, we posted the survey on social media groups dedicated to water sports as well
+      as the general public. The survey was also advertised in the Queen Mary student union to target water sports
+      teams and clubs. This meant we got a wide range of responses.</p>
+    <br/>
+    <div class="text-center"><img class="results" src="https://c2.staticflickr.com/2/1850/44594830512_24653b3ed8_b.jpg"></div>
+    <br/>
+    <h4 class="subtitle">Wireframes</h4>
+    <p class="para">The choice between phone and tablet was simple for this application for numerous reasons that were supported
+      by our stakeholder research: it is much more convenient to bring a phone to a beach than it is to bring a tablet, since
+      many modern smartphones are waterproof and only few tablets are. Phones are pocket sized and so easier to transport, especially
+      when the user is also carrying sports equipment between sites.
     </p>
-    <div class="row">
-      <div class="col-sm-4"><img src="https://c2.staticflickr.com/2/1895/30628642228_dbaaa2cec7_o.png">
+    <div class="row text-center">
+      <div class="col-sm-4">
+        <h5 class="caption">Landing Page</h5>
+        <img src="https://c2.staticflickr.com/2/1895/30628642228_dbaaa2cec7_o.png">
+        <p class="para">
+          Our focus was on legibility and speed of use, so rather than having a login or preferences screen
+          as many competitors do, we decided the application should open to a simple screen with the minimum
+          amount of text so that users can quickly view their options.
+        </p>
       </div>
-      <div class="col-sm-4"><img src="https://c2.staticflickr.com/2/1888/43780644284_5ec7cc1853_o.png">
+      <div class="col-sm-4">
+        <h5 class="caption">Search Interactions</h5>
+        <img src="https://c2.staticflickr.com/2/1888/43780644284_5ec7cc1853_o.png">
+        <p class="para">There are more options available for users who need more specific information, including three ways
+          to specify a location: by entering a postcode, by selecting from a drop down list of nearby beaches and
+          bodies of water, or by using their phones location services. </p>
       </div>
-      <div class="col-sm-4"><img src="https://c2.staticflickr.com/2/1900/44498539811_a629866d94_o.png">
+      <div class="col-sm-4">
+        <h5 class="caption">Main Page</h5>
+        <img src="https://c2.staticflickr.com/2/1900/44498539811_a629866d94_o.png">
+        <p class="para"> The decision to limit the number of widgets displayed was informed by our research, which suggested
+          that our users prefer not to sacrifice ease of use for detail, and in most cases only need 3-5 pieces of information. </p>
       </div>
     </div>
     <p>The weather app was to be used by people who partake in watersports. The user would type in a location
       (country, city, postcode) which would then be used by the geolocation api to get the co-ordinates, that would
       then query the weather api to get a json file with weather information that can be displayed about the location.</p>
+    <br/>
+    <h4 class="subtitle">Roadmap</h4>
+    <p class="para">Below we have created a Gantt Chart to plan and track specific tasks in the project. We have broken down the development
+      phase into three main tasks to be completed. The way we have ordered these tasks is of importance. The two tasks that are
+      developed simultaneously is of highest priority whilst, the third task is important, but if not fully finished the application
+      will still be fully functioning and somewhat meet most the user requirements on our list.</p>
+    <div class="text-center"><img class="results" src="https://c2.staticflickr.com/2/1844/44595103732_1a4e53aef7_b.jpg"></div>
+    <br/>
+    <br/>
+    <h3 class="title">Development</h3>
+    <br/>
     <div class="container">
       <div id="myCarousel" class="carousel slide" data-ride="carousel">
         <!-- Indicators -->
@@ -100,7 +162,7 @@
     </div>
   </div>
 
-  <div class="buttons">
+  <div class="buttons text-center">
     <form action="https://github.com/WinsomeYuen/WeatherApp">
       <button type="submit" class="btn github-button">Github Repo</button>
     </form>
@@ -109,7 +171,61 @@
     </form>
   </div>
 
-  <footer class="mastfoot mt-auto">
+  <h3 class="title">Evaluation</h3>
+  <p class="para">
+    There were five evaluators for the application and they were each given a checklist with quick and brief questions that
+    cover the ten Usability Heuristics for User Interface Design. The majority of the questions were for a specific element
+    so that the answers are concise. This checklist was done for each component of the application (there are two in total)
+    so that the evaluators can concentrate on each one and answers would be specific to the component being looked at. In
+    order to fully test the application, we divided the evaluators into two groups (mobile/desktop) so that we could see if
+    there are patterns when using each specific platform as well as comparing  the two different user experiences.
+  </p>
+  <p class="para">
+    Consistency with the user interface was tested by seeing if users can distinguish between buttons, input fields and text
+    presented by the application. The users were also asked to input incorrect data to see what steps they would take if an
+    error occurred. Users were asked to identify the information displayed to test if it was relevant and whether the results
+    were as they expected of a weather application for users who participate in watersports; in addition the users were asked
+    to identify how useful the information was.
+  </p>
+  <h4 class="subtitle">Proposed Improvements</h4>
+  <p class="para">
+    <b>Error Prevention</b> - this was a big problem that was found in the evaluation. In order to fix this:
+    <div class="row text-center">
+      <div class="col-sm-6">
+          <img src="https://c2.staticflickr.com/2/1845/42835445520_e7cc4e2cf7.jpg">
+          <p class="para">
+            The input box for searching a location should state the type of values that users can enter by displaying a pop-up as
+            the user types into the box so that it instantly catches the users attention. Afterwards, a function should check the
+            input against a list of requirements before being sent to the next component of the application to reduce the time
+            trying to process an incorrect input. If input is correct, a green tick should be displayed next to the input box to indicate this.
+          </p>
+      </div>
+      <div class="col-sm-6">
+          <img src="https://c2.staticflickr.com/2/1878/43926431194_40ed3e3285.jpg">
+          <p class="para">
+            The APIs should catch errors when locations cannot be found and display an alternative result depending on the type of
+            error, for example the location has no data found, so users can understand what the error was and retry. The error display
+            will be at the center of the screen and will be the only element.
+          </p>
+      </div>
+    </div>
+    <b class="para">Efficiency of use/User control</b> - timing for displaying results were relatively fast, however, for the design:
+    <div class="row">
+      <div class="col-md-6 col-md-offset-*">
+        <p class="para">
+          A back button to return to the search page after the results for the users initial search has been displayed on
+          the screen should be implemented. The button would be at the bottom of the search result, allowing the user to have
+          a read through the information displayed. They could go back without using the phones back button, and this will have
+          a lower chance of crashing the application.
+        <p>
+      </div>
+      <div class="col-md-6 col-md-offset-* text-center">
+        <img src="https://c2.staticflickr.com/2/1850/30775303548_3211a8e52d.jpg">
+      </div>
+    </div>
+  </p>
+
+  <footer class="mastfoot mt-auto text-center">
     <div class="inner">
       Contact Me:
       <a href="mailto:winsomeyuen@hotmail.com?Subject=Portfolio%20Enquiry" target="_top">Send Mail</a><br/>

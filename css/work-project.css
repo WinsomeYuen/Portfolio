@@ -1,7 +1,7 @@
 .cover-container{
     padding: 50px;
 }
-ul, ol{
+.carousel ul, .carousel ol{
     list-style: none;
 }
 .btn-group{
@@ -76,6 +76,46 @@ ul, ol{
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
+
+
+/*Body*/
+.title{
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+.title, .caption{
+    text-align: center;
+    color: #FA8B91;
+}
+.subtitle{
+    color: powderblue;
+}
+.column-size{
+    float: left;
+    width: 50%;
+    padding:  -40px 10px;
+    display: inline-block;
+    align-items: center;
+}
+.para{
+    padding: 20px;
+}
+@media (max-width: 700px) {
+    .column-size{
+        width: 100%;
+    }
+    iframe{
+        width: 300px;
+    }
+    .results{
+        max-width: 300px;
+    }
+}
+.image-padding{
+    padding: 20px;
+    max-width: 500px;
+}
+
 
 
 /*Footer*/
