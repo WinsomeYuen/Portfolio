@@ -2,7 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da55a150-46ed-4d87-b447-6a68ee37a0fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experience.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navbar.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navbar.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navbar2.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navbar2.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/navbar3.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/navbar3.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/work-sections/university.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work-sections/university.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/work-sections/work.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/work-sections/work.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -29,7 +33,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="69" />
-          <entry key="html" value="100" />
+          <entry key="html" value="106" />
           <entry key="js" value="3" />
           <entry key="less" value="3" />
           <entry key="png" value="4" />
@@ -40,7 +44,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="69" />
-          <entry key="HTML" value="100" />
+          <entry key="HTML" value="106" />
           <entry key="Image" value="4" />
           <entry key="JavaScript" value="3" />
           <entry key="Less" value="3" />
@@ -70,11 +74,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pages/experience.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
+            <state relative-caret-position="272">
               <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/pages/work-sections/university.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -136,16 +149,12 @@
         <option value="$PROJECT_DIR$/css/so.less" />
         <option value="$PROJECT_DIR$/css/cards.less" />
         <option value="$PROJECT_DIR$/css/work-stylesheets/university.css" />
-        <option value="$PROJECT_DIR$/pages/work-sections/university.html" />
         <option value="$PROJECT_DIR$/css/work-stylesheets/work-project.html" />
         <option value="$PROJECT_DIR$/css/work-stylesheets/work-project.css" />
         <option value="$PROJECT_DIR$/pages/individual-work/surplus.html" />
         <option value="$PROJECT_DIR$/pages/individual-work/artblog.html" />
         <option value="$PROJECT_DIR$/pages/work.html" />
         <option value="$PROJECT_DIR$/pages/projects.html" />
-        <option value="$PROJECT_DIR$/pages/navbar2.html" />
-        <option value="$PROJECT_DIR$/pages/navbar.html" />
-        <option value="$PROJECT_DIR$/pages/navbar3.html" />
         <option value="$PROJECT_DIR$/css/interests.css" />
         <option value="$PROJECT_DIR$/css/profile.css" />
         <option value="$PROJECT_DIR$/css/projects.css" />
@@ -155,10 +164,14 @@
         <option value="$PROJECT_DIR$/pages/individual-work/degree7.html" />
         <option value="$PROJECT_DIR$/pages/profile.html" />
         <option value="$PROJECT_DIR$/css/work-stylesheets/work.css" />
-        <option value="$PROJECT_DIR$/pages/work-sections/work.html" />
         <option value="$PROJECT_DIR$/css/work.css" />
         <option value="$PROJECT_DIR$/pages/individual-work/gtb.html" />
         <option value="$PROJECT_DIR$/pages/experience.html" />
+        <option value="$PROJECT_DIR$/pages/navbar.html" />
+        <option value="$PROJECT_DIR$/pages/navbar2.html" />
+        <option value="$PROJECT_DIR$/pages/navbar3.html" />
+        <option value="$PROJECT_DIR$/pages/work-sections/work.html" />
+        <option value="$PROJECT_DIR$/pages/work-sections/university.html" />
       </list>
     </option>
   </component>
@@ -207,6 +220,12 @@
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="work-sections" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -288,12 +307,12 @@
       <workItem from="1536941221095" duration="707000" />
       <workItem from="1537653035439" duration="3217000" />
       <workItem from="1537656543265" duration="135000" />
-      <workItem from="1537704242643" duration="474000" />
+      <workItem from="1537704242643" duration="634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="141390000" />
+    <option name="totallyTimeSpent" value="141550000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -420,27 +439,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/navbar.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="43" selection-start-line="8" selection-start-column="42" selection-end-line="8" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/navbar2.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="17" lean-forward="true" selection-start-line="5" selection-start-column="17" selection-end-line="5" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/navbar3.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="48" selection-start-line="8" selection-start-column="48" selection-end-line="8" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/interests.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="917">
@@ -480,13 +478,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" column="32" selection-end-line="123" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pages/work-sections/university.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="10" column="44" selection-start-line="10" selection-start-column="44" selection-end-line="10" selection-end-column="44" />
         </state>
       </provider>
     </entry>
@@ -546,13 +537,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/work-sections/work.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="374">
-          <caret line="22" column="43" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="63" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/pages/profile.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -567,6 +551,27 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/navbar.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-306">
+          <caret line="21" column="47" selection-start-line="21" selection-start-column="47" selection-end-line="21" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/navbar2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="31" lean-forward="true" selection-start-line="12" selection-start-column="31" selection-end-line="12" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/navbar3.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="55" selection-start-line="14" selection-start-column="55" selection-end-line="14" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/work.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="348">
@@ -574,10 +579,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/pages/work-sections/work.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="57" selection-start-line="9" selection-start-column="57" selection-end-line="9" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/pages/experience.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
+        <state relative-caret-position="272">
           <caret line="16" column="75" selection-start-line="16" selection-start-column="75" selection-end-line="16" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pages/work-sections/university.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="33" column="53" selection-start-line="33" selection-start-column="53" selection-end-line="33" selection-end-column="53" />
         </state>
       </provider>
     </entry>
