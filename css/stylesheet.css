@@ -148,8 +148,11 @@ body{
     text-align: center;
     background-color: #FA8B91;
 }
-span.change-color:before{
-  content: attr(data-content);
+.cover-heading .popover-title{
+  color: #000000;
+  font-weight: bold;
+}
+.cover-heading .popover-content{
   color: #FA8B91;
 }
 u.dotted{
