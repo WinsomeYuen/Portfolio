@@ -114,7 +114,7 @@ body{
 }
 .cover-heading{
   color: white;
-  font-family: 'Quicksand', cursive;
+  font-family: 'Quicksand', 'sans-serif';
 }
 .btn{
   background-color: #FA8B91;
