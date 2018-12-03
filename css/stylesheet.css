@@ -11,6 +11,9 @@ body{
 ::-moz-selection {
   background: #FA8B91; /* Gecko Browsers */
 }
+.change-color{
+  color: #000000;
+}
 
 
 /*ScrollBar*/
