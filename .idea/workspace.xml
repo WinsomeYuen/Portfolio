@@ -3,10 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="da55a150-46ed-4d87-b447-6a68ee37a0fa" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/css/stylesheet.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/stylesheet.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/typed.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/typed.min.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pages/profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/profile.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -34,7 +32,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="69" />
+          <entry key="css" value="70" />
           <entry key="html" value="111" />
           <entry key="js" value="3" />
           <entry key="less" value="3" />
@@ -45,7 +43,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="69" />
+          <entry key="CSS" value="70" />
           <entry key="HTML" value="111" />
           <entry key="Image" value="5" />
           <entry key="JavaScript" value="3" />
@@ -56,7 +54,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="css" value="1873" />
+          <entry key="css" value="1882" />
           <entry key="html" value="9518" />
           <entry key="js" value="1" />
           <entry key="less" value="46" />
@@ -65,7 +63,7 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="CSS" value="1873" />
+          <entry key="CSS" value="1882" />
           <entry key="HTML" value="9518" />
           <entry key="JavaScript" value="1" />
           <entry key="Less" value="46" />
@@ -79,8 +77,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="119">
+              <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
+          <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="289">
-              <caret line="51" column="114" selection-start-line="51" selection-start-column="114" selection-end-line="51" selection-end-column="114" />
+              <caret line="116" column="25" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -146,7 +153,6 @@
         <option value="$PROJECT_DIR$/pages/education.html" />
         <option value="$PROJECT_DIR$/css/education.css" />
         <option value="$PROJECT_DIR$/pages/interests.html" />
-        <option value="$PROJECT_DIR$/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/css/so.scss" />
         <option value="$PROJECT_DIR$/css/so.less" />
         <option value="$PROJECT_DIR$/css/cards.less" />
@@ -173,6 +179,7 @@
         <option value="$PROJECT_DIR$/pages/work-sections/university.html" />
         <option value="$PROJECT_DIR$/pages/individual-work/gtb.html" />
         <option value="$PROJECT_DIR$/pages/profile.html" />
+        <option value="$PROJECT_DIR$/css/stylesheet.css" />
         <option value="$PROJECT_DIR$/index.html" />
       </list>
     </option>
@@ -211,6 +218,11 @@
               <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
               <item name="assets" type="462c0819:PsiDirectoryNode" />
               <item name="images" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Portfolio" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="Portfolio" type="b2602c69:ProjectViewProjectNode" />
@@ -392,13 +404,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/css/work-stylesheets/work-project.html" />
-    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="23" column="21" selection-start-line="23" selection-start-column="15" selection-end-line="23" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/css/education.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -577,10 +582,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
+    <entry file="file://$PROJECT_DIR$/css/stylesheet.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="289">
-          <caret line="51" column="114" selection-start-line="51" selection-start-column="114" selection-end-line="51" selection-end-column="114" />
+          <caret line="116" column="25" selection-start-line="116" selection-start-column="25" selection-end-line="116" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="8" column="66" selection-start-line="8" selection-start-column="66" selection-end-line="8" selection-end-column="66" />
         </state>
       </provider>
     </entry>
