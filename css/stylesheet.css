@@ -116,9 +116,6 @@ body{
   color: white;
   font-family: 'Quicksand', 'sans-serif';
 }
-.btn{
-  background-color: #FA8B91;
-}
 .bg-grey {
   background-color: #f6f6f6;
 }
@@ -132,6 +129,11 @@ body{
 }
 #cover .fab:hover{
   color: #8B7CB8;
+}
+.cover-button{
+    margin-top: 25px;
+    text-align: center;
+    background-color: #FA8B91;
 }
 
 
