@@ -17,8 +17,8 @@ body{
 .change-color{
   color: #000000;
 }
-.dotted-underline{
-  border-bottom: 1px dotted #000;
+.dotted{
+  border-bottom: 1px dashed #000;
   text-decoration: none;
 }
 
@@ -147,6 +147,10 @@ body{
     margin-top: 25px;
     text-align: center;
     background-color: #FA8B91;
+}
+u.dotted{
+  border-bottom: 1px dashed #000;
+  text-decoration: none;
 }
 
 
