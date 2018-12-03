@@ -21,6 +21,12 @@ body{
   border-bottom: 1px dashed #000;
   text-decoration: none;
 }
+.font1{
+  font-family: 'Righteous', cursive;
+}
+.font2{
+  font-family: 'Pacifico', cursive;
+}
 
 
 /*ScrollBar*/
