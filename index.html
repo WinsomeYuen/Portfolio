@@ -50,9 +50,10 @@
     <div class="container">
       <h1 class="cover-heading">Hi I'm Winsome! I am a Frontend and UI/UX developer in my final year
           studying computer science. I love combining my creative skills with technology to create
-        <div class="tooltip">innovative products 🖍️💻🍰
-            <span class="tooltiptext">Tooltip text</span>
-        </div>
+        <div class="bs-example">
+          <button type="button" class="btn btn-primary" data-toggle="popover" title="Modal Short Text"
+                  data-content="You gotta go through it to see there ain't nothing to it. Listen to the silence.">innovative products</button>
+        </div> 🖍️💻🍰
       </h1>
     </div>
     <br/><br/>
@@ -83,5 +84,14 @@
       <span class="glyphicon glyphicon-chevron-up"></span>
     </a>
   </footer>
+
+  <script>
+      $(document).ready(function() {
+          $('[data-toggle="popover"]').popover({
+              placement: 'top',
+              trigger: 'hover'
+          });
+      });
+  </script>
   </body>
 </html>
