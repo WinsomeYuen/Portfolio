@@ -148,6 +148,10 @@ body{
     text-align: center;
     background-color: #FA8B91;
 }
+span.change-color:before{
+  content: attr(data-content, title);
+  color: #FA8B91;
+}
 u.dotted{
   border-bottom: 1px dashed #000;
   text-decoration: none;
