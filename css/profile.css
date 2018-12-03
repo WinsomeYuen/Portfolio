@@ -36,7 +36,6 @@
     width: 400px;
     margin: 0 auto;
     display: block;
-    border-radius: 50%;
 }
 .row::after {
     content: "";
