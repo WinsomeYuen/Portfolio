@@ -31,6 +31,12 @@
 .buttons form{
     display: inline;
 }
+.card-role{
+    padding: 15px;
+    max-width: 800px;
+    margin: 0 auto; /* Added */
+    float: none; /* Added */
+}
 
 
 /*Navigation Bar*/
