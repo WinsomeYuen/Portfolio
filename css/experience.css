@@ -106,6 +106,7 @@ section {
 
 .timeline-item:nth-child(1) .timeline-img-header {
     background: url("../assets/images/logos/spotify-colour2.gif") center center no-repeat;
+    background-size: cover; }
 .timeline-item:nth-child(2) .timeline-img-header {
     background: url("../assets/images/logos/kodama.jpg") center center no-repeat;
     background-size: cover; }
