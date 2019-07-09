@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="da55a150-46ed-4d87-b447-6a68ee37a0fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/css/experience.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/experience.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pages/experience.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/experience.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,20 +19,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pages/experience.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="240">
-              <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+            <state relative-caret-position="60">
+              <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/css/experience.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+            <state relative-caret-position="148">
+              <caret line="106" selection-start-line="106" selection-end-line="108" selection-end-column="29" />
             </state>
           </provider>
         </entry>
@@ -116,8 +116,8 @@
         <option value="$PROJECT_DIR$/pages/individual-work/gtb.html" />
         <option value="$PROJECT_DIR$/pages/individual-work/artfund.html" />
         <option value="$PROJECT_DIR$/pages/individual-work/degree7.html" />
-        <option value="$PROJECT_DIR$/pages/experience.html" />
         <option value="$PROJECT_DIR$/css/experience.css" />
+        <option value="$PROJECT_DIR$/pages/experience.html" />
       </list>
     </option>
   </component>
@@ -544,17 +544,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/pages/experience.html">
+    <entry file="file://$PROJECT_DIR$/css/experience.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
+        <state relative-caret-position="148">
+          <caret line="106" selection-start-line="106" selection-end-line="108" selection-end-column="29" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/css/experience.css">
+    <entry file="file://$PROJECT_DIR$/pages/experience.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="108" column="29" selection-start-line="108" selection-start-column="29" selection-end-line="108" selection-end-column="29" />
+        <state relative-caret-position="60">
+          <caret line="4" column="12" selection-start-line="4" selection-start-column="12" selection-end-line="4" selection-end-column="12" />
         </state>
       </provider>
     </entry>
