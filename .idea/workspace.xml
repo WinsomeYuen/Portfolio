@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="da55a150-46ed-4d87-b447-6a68ee37a0fa" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/pages/individual-work/santanderbikes.html" beforeDir="false" afterPath="$PROJECT_DIR$/pages/individual-work/santanderbikes.html" afterDir="false" />
-    </list>
+    <list default="true" id="da55a150-46ed-4d87-b447-6a68ee37a0fa" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
     <ignored path="$PROJECT_DIR$/tmp/" />

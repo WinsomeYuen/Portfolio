@@ -1,5 +1,5 @@
 .projects{
-    background-color: powderblue;
+    background-color: #000000;
     padding: 30px;
     text-align: center;
 }
@@ -43,7 +43,7 @@
     color: #797979;
 }
 .projects h3{
-    color: powderblue;
+    color: #FA8B91;
     padding-left: 15px;
 }
 .projects .card-img-top{
@@ -57,6 +57,7 @@
 }
 .projects .card-text{
     font-size: 50px;
+    color: #000000;
 }
 @media (max-width: 700px){
     .projects div .col{

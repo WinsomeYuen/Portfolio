@@ -27,28 +27,24 @@ body{
 .font2{
   font-family: 'Pacifico', cursive;
 }
-
-
-/*ScrollBar*/
-::-webkit-scrollbar {
-  width: 10px; /* width */
+.btn{
+  background-color: #ffffff;
+  color: #000000;
+  border-radius: 40px;
+	text-align: center;
 }
-::-webkit-scrollbar-track {
-  background: #f1f1f1; /* Track */
+.bg-grey {
+  background-color: #f6f6f6;
 }
-::-webkit-scrollbar-thumb {
-  background: #8B7CB8; /* Handle */
+.container-fluid {
+  padding: 60px 50px;
 }
-::-webkit-scrollbar-thumb:hover {
-  background: #555; /* Handle on hover */
-}
-
 
 /*Navigation Bar*/
 .navbar-default {
   font-family: 'Quicksand', 'sans-serif';
   margin-bottom: 0;
-  background-color: powderblue;
+  background-color: #000000;
   z-index: 9999;
   border: 0;
   font-size: 15px !important;
@@ -66,7 +62,7 @@ body{
   color: #fff !important;
 }
 .navbar-nav li a:hover, .navbar-nav li.active a {
-  color: powderblue !important;
+  color: #000000 !important;
   background-color: #fff !important;
 }
 .navbar-fixed-top.scrolled {
@@ -106,13 +102,13 @@ body{
 }
 /* Change the background color of the dropdown button when the dropdown content is shown */
 .dropdown:hover .dropbtn {
-  background-color: powderblue;
+  background-color: #000000;
 }
 
 
 /*Cover*/
 #cover{
-  background-color: powderblue;
+  background-color: #000000;
   background-size:cover;
   height: 100vh;
   width: 100vw;
@@ -132,27 +128,13 @@ body{
   color: white;
   font-family: 'Quicksand', 'sans-serif';
 }
-.btn{
-  background-color: #FA8B91;
-}
-.bg-grey {
-  background-color: #f6f6f6;
-}
-.container-fluid {
-  padding: 60px 50px;
-}
 #cover .fab{
   color: #818181;
   font-size: 1.5em;
   padding: 5px;
 }
 #cover .fab:hover{
-  color: #8B7CB8;
-}
-.cv-button{
-    margin-top: 25px;
-    text-align: center;
-    background-color: #FA8B91;
+  color: #FA8B91;
 }
 .cover-heading .popover-title{
   color: #000000;
@@ -165,15 +147,6 @@ u.dotted{
   border-bottom: 1px dashed #000;
   text-decoration: none;
 }
-
-
-/*Footer*/
-footer .glyphicon {
-  font-size: 20px;
-  margin-bottom: 20px;
-  color: powderblue;
-}
-
 
 /*Sliding animation throughout page*/
 .slideanim {visibility:hidden;}
@@ -234,11 +207,19 @@ footer .glyphicon {
 /*
  * Footer
  */
+ footer {
+   background-color: #000000;
+ }
 footer .fab{
-  color: #818181;
+  color: #ffffff;
   font-size: 1.5em;
   padding: 5px;
 }
 footer .fab:hover{
-  color: #FA8B91;
+  color: #818181;
+}
+footer .glyphicon {
+  font-size: 20px;
+  margin-bottom: 20px;
+  color: #ffffff;
 }

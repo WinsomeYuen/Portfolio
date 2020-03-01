@@ -16,8 +16,7 @@
     padding: 20px 0 10px;
 }
 .skill div .col:hover{
-    background-color: powderblue;
-    color: #FA8B91;
+    background-color: #FA8B91;
     padding-right: 30px;
 }
 .skill div .col:hover h3{
@@ -27,7 +26,7 @@
     list-style: none;
 }
 .skill h3{
-    color: powderblue;
+    color: #FA8B91;
     padding-left: 15px;
 }
 @media (max-width: 700px){
