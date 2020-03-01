@@ -1,10 +1,12 @@
 .experience{
   background-color: #000000;
+
 }
 .experience h2{
     text-align: center;
     color: #FA8B91;
     padding: 20px;
+    margin: 0;
 }
 section {
     padding: 100px 0;
@@ -83,7 +85,7 @@ section {
 }
 
 .timeline a {
-    background: powderblue;
+    background: #000000;
     color: #FFFFFF;
     padding: 8px 20px;
     text-transform: uppercase;
@@ -146,7 +148,7 @@ section {
 }
 
 .date {
-    background: powderblue;
+    background: #FA8B91;
     display: inline-block;
     color: #FFFFFF;
     padding: 10px;
