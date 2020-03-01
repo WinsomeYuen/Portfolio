@@ -48,6 +48,7 @@
 }
 .projects .card-img-top{
     width: 100%;
+    filter: hue-rotate(140deg);
 }
 .projects .card{
     background-color: #FFFFFF;
