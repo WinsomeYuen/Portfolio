@@ -15,13 +15,6 @@
     text-align: center;
     padding: 20px 0 10px;
 }
-.skill div .col:hover{
-    background-color: #FA8B91;
-    padding-right: 30px;
-}
-.skill div .col:hover h3{
-    color: #797979;
-}
 .skill ul{
     list-style: none;
 }
