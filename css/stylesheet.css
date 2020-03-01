@@ -32,6 +32,8 @@ body{
   color: #000000;
   border-radius: 40px;
 	text-align: center;
+  font-size: 15px;
+  text-transform: none;
 }
 .bg-grey {
   background-color: #f6f6f6;
