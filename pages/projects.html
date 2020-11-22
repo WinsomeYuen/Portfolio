@@ -1,6 +1,6 @@
 <div class="projects">
     <h1>Featured Projects</h1>
-    <p>I started to properly code at university, and from there I started to do
+    <p class="body">I started to properly code at university, and from there I started to do
         work experience outside to further develop my skills and personal work in
         my free time to practice. Only my most recent projects are displayed below,
         click on the GitHub Repository link to view all my programming work.</p>
@@ -11,7 +11,7 @@
     <div class="row">
         <div class="col">
             <!-- Card -->
-            <div class="card">
+            <div class="card" id="degree7">
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="https://c2.staticflickr.com/2/1844/30628694288_6d412253cb_b.jpg" alt="Card image cap">
@@ -33,7 +33,7 @@
         </div>
         <div class="col">
             <!-- Card -->
-            <div class="card">
+            <div class="card" id="water-watch">
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="https://c2.staticflickr.com/2/1884/44498539521_1f8d142b70_b.jpg" alt="Card image cap">
@@ -55,7 +55,7 @@
         </div>
         <div class="col">
             <!-- Card -->
-            <div class="card">
+            <div class="card" id="gtb">
                 <!-- Card image -->
                 <div class="view overlay">
                     <img class="card-img-top" src="assets/images/logos/Givenheader.png" alt="Card image cap">
@@ -77,3 +77,29 @@
         </div>
     </div>
 </div>
+
+<script>
+    $('document').ready(function() {
+        setHeight()
+
+        window.addEventListener("resize", setHeight, false);
+    });
+
+    function setHeight(){
+        var projects = [document.getElementById('water-watch').clientHeight, 
+                document.getElementById('degree7').clientHeight, 
+                document.getElementById('gtb').clientHeight];
+        var max = projects.slice().sort(function(a,b){return a - b}).pop();
+        var intFrameWidth = window.innerWidth;
+
+        if(intFrameWidth > 700){
+            document.getElementById('water-watch').style.height = max + "px";
+            document.getElementById('degree7').style.height = max + "px";
+            document.getElementById('gtb').style.height = max + "px";
+        } else {
+            document.getElementById('water-watch').style.height = "auto";
+            document.getElementById('degree7').style.height = "auto";
+            document.getElementById('gtb').style.height = "auto";
+        }
+    }
+</script>

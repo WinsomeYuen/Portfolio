@@ -1,3 +1,7 @@
+.projects .row{
+    display: flex;
+    flex-direction: row;
+}
 .projects{
     background-color: #000000;
     padding: 30px;
@@ -6,6 +10,11 @@
 .projects h1{
     color: #FFFFFF;
     padding-bottom: 10px;
+}
+.projects .body{
+    color: #FA8B91;
+    max-width: 850px;
+    margin: auto;
 }
 .projects h5{
     padding-left: 20px;
@@ -33,8 +42,7 @@
 .buttons .all-projects:hover{
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
-.projects div .col{
-    float: left;
+.projects .col{
     width: 33%;
     text-align: center;
     padding: 20px 20px 10px;
@@ -48,7 +56,6 @@
 }
 .projects .card-img-top{
     width: 100%;
-    filter: hue-rotate(140deg);
 }
 .projects .card{
     background-color: #FFFFFF;
@@ -61,10 +68,11 @@
     color: #000000;
 }
 @media (max-width: 700px){
-    .projects div .col{
+    .projects .row{
+        flex-direction: column;
+    }
+    .projects .col{
         width: 100%;
-        text-align: center;
-        padding: 20px 0 10px;
     }
 }
 

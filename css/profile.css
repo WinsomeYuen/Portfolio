@@ -2,6 +2,11 @@
     background-color: #F2F2F2;
     padding: 40px 80px;
 }
+.row{
+    max-width: 1050px;
+    display: flex;
+    margin:0 auto;
+}
 .profile .profile-title{
     padding-bottom: 20px;
     color: #FA8B91;
@@ -11,7 +16,9 @@
     font-weight: lighter;
 }
 .profile-para{
-    font-size: 17px;
+    font-size: 18px;
+    text-align: justify;
+    text-justify: inter-word;
 }
 .profile-cv{
     text-align: center;
@@ -21,35 +28,50 @@
     color: #797979;
 }
 .column-profile{
-    float: left;
-    width: 50%;
-    padding:  -40px 10px;
-    display: inline-block;
+    vertical-align: middle;
     align-items: center;
+    flex: 0 0 65%;
 }
-.column-profile img{
-    width: 400px;
+.column-profile-image{
     margin: 0 auto;
-    display: block;
+    flex: 1;
 }
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
+.column-profile-image img{
+    max-width: 100%;
+    margin-left: 40px;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
+
 @media (max-width: 700px) {
+    .profile{
+        padding: 40px 20px;
+    }
+
+    .row{
+        display: block;
+    }
+
     .column-profile{
         width: 100%;
         padding: 20px 20px;
         text-align: center;
     }
-    .column-profile img{
-        width: 300px;
-    }
-}
 
-@media (max-width: 450px) {
-    .column-profile img{
-        max-width: 200px;
+    .profile-para{
+        font-size: 16px;
+    }
+
+    .column-profile-image{
+        display: block;
+        height: auto;
+        max-width: 300px;
+    }
+
+    .column-profile-image img{
+        max-width: 300px;
+        transform: none;
+        margin-left: 0;
     }
 }
