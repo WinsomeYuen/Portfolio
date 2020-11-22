@@ -13,7 +13,6 @@
     float: left;
     width: 25%;
     text-align: center;
-    padding: 20px 0 10px;
 }
 .skill ul{
     list-style: none;
@@ -26,6 +25,5 @@
     .skill div .col{
         width: 100%;
         text-align: center;
-        padding: 20px 0 10px;
     }
 }

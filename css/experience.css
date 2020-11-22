@@ -5,11 +5,11 @@
 .experience h2{
     text-align: center;
     color: #FA8B91;
-    padding: 20px;
+    padding: 40px 0 0;
     margin: 0;
 }
 section {
-    padding: 100px 0;
+    padding: 60px 0;
 }
 .timeline {
     position: relative;
@@ -26,7 +26,7 @@ section {
 
 .timeline-item {
     width: 100%;
-    margin-bottom: 70px;
+    margin-bottom: 20px;
 }
 .timeline-item:nth-child(even) .timeline-content {
     float: right;
