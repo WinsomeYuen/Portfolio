@@ -2,26 +2,31 @@
     display: flex;
     flex-direction: row;
 }
+
 .projects{
     background-color: #000000;
     padding: 30px;
     text-align: center;
 }
+
 .projects h1{
     color: #FFFFFF;
     padding-bottom: 10px;
 }
+
 .projects .body{
     color: #FA8B91;
     max-width: 850px;
     margin: auto;
 }
+
 .projects h5{
     padding-left: 20px;
 }
 .projects .buttons{
     padding: 20px;
 }
+
 .buttons .github{
     background-color: transparent;
     padding: 10px 20px;
@@ -33,40 +38,59 @@
     background-color: #FFFFFF;
     color: #FA8B91;
 }
+
 .buttons .all-projects{
      background-color: #FA8B91;
      padding: 10px 20px;
      border-radius: 15px;
      color: #FFFFFF;
  }
+
 .buttons .all-projects:hover{
     box-shadow: 0 20px 25px -15px rgba(0, 0, 0, 0.3);
 }
+
+.projects .btn.btn-lg {
+    font-size: 14px;
+    border: 2px solid #FA8B91;
+}
+
+.projects .btn.btn-lg:hover{
+    background-color: #FA8B91;
+}
+
 .projects .col{
     width: 33%;
     text-align: center;
     padding: 20px 20px 10px;
 }
+
 .projects div .col:hover h3{
     color: #797979;
 }
+
 .projects h3{
     color: #FA8B91;
     padding-left: 15px;
 }
+
 .projects .card-img-top{
     width: 100%;
 }
+
 .projects .card{
     background-color: #FFFFFF;
 }
+
 .projects .card-body{
     padding: 20px;
 }
+
 .projects .card-text{
     font-size: 50px;
     color: #000000;
 }
+
 @media (max-width: 700px){
     .projects .row{
         flex-direction: column;
