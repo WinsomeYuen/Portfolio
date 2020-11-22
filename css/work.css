@@ -1,12 +1,28 @@
 body{
     background-color: #000000;
+    max-width: 1200px;
+    vertical-align: middle;
+    margin: auto;
 }
+
 .album{
     padding-top: 40px;
 }
+
 .jumbotron-heading{
     color: #8B7CB8;
 }
+
 .title-section{
     padding: 10px 40px;
+}
+
+.card .btn--block{
+    margin: auto;
+    text-transform: capitalize;
+    margin: 10px auto 14px;
+}
+
+.card__btn:hover{
+    background-color: #FA8B91;
 }

@@ -229,19 +229,25 @@ u.dotted{
 /*
  * Footer
  */
- footer {
+footer {
    background-color: #000000;
- }
+}
+
 footer .fab{
   color: #FFFFFF;
   font-size: 1.5em;
   padding: 5px;
 }
+
 footer .fab:hover{
-  color: #818181;
+  color: #FA8B91;
 }
 footer .glyphicon {
   font-size: 20px;
   margin-bottom: 20px;
   color: #FFFFFF;
+}
+
+footer a {
+  color: #FA8B91;
 }
