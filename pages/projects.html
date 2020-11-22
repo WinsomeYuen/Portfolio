@@ -79,16 +79,14 @@
 </div>
 
 <script>
-    $('document').ready(function() {
-        setHeight()
+    window.onload = setHeight;
 
-        window.addEventListener("resize", setHeight, false);
-    });
+    window.addEventListener("resize", setHeight, false);
 
     function setHeight(){
-        var projects = [document.getElementById('water-watch').clientHeight, 
-                document.getElementById('degree7').clientHeight, 
-                document.getElementById('gtb').clientHeight];
+        var projects = [document.getElementById('water-watch').offsetHeight, 
+                document.getElementById('degree7').offsetHeight, 
+                document.getElementById('gtb').offsetHeight];
         var max = projects.slice().sort(function(a,b){return a - b}).pop();
         var intFrameWidth = window.innerWidth;
 
