@@ -135,7 +135,19 @@
     padding: 20px;
     max-width: 500px;
 }
+.image-container{
+    margin: auto;
+    padding-top: 20px;
+}
+.image-hidden{
+    display: none;
+}
 
+@media (max-width: 1000px) {
+    .image-hidden{
+        display: block;
+    }
+}
 
 
 /*Footer*/
