@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <title>Winsome Yuen</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Winsome Yuen | Creating products with coffee"/>
+    <link rel="shortcut icon" type="image/x-icon" href="../../assets/images/favicon.ico" />
+    <link href="https://fonts.googleapis.com/css?family=Pacifico|Megrim|Quicksand" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <!-- Bootstrap core CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <!-- Material Design Bootstrap -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/css/mdb.min.css" rel="stylesheet">
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="jquery.js"></script>
+    <!-- Bootstrap tooltips -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <!-- MDB core JavaScript -->
+    <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.5.8/js/mdb.min.js"></script>
+
+    <link rel='stylesheet' type='text/css' href='../../css/stylesheet.css'/>
+    <link rel='stylesheet' type='text/css' href='../../css/work-project.css'/>
+    <script>
+      $(function(){
+          $("#navbar").load("../navbar3.html");
+      });
+  </script>
+</head>
+<body class="text-center">
+<div class="cover-container d-flex h-100 p-3 mx-auto flex-column">
+    <div id="navbar"></div>
+
+    <div class="main">
+        <h1>Spotify Projects</h1>
+        <div class="btn-group btn-group-sm" role="group" aria-label="...">
+            <button type="button" class="btn" disabled>React</button>
+            <button type="button" class="btn" disabled>NextJs</button>
+            <button type="button" class="btn" disabled>Symfony</button>
+            <button type="button" class="btn" disabled>APIs</button>
+            <button type="button" class="btn" disabled>Tracking</button>
+            <button type="button" class="btn" disabled>Research</button>
+        </div>
+        <hr>
+        <p>
+            At Spotify I have worked on a range of projects from configuring campaigns
+            in our internal CMS tool using the component library my team has built to
+            adding tracking to our libraries to help track performance of A/B tests created
+            by the experiments team.
+        </p>
+
+        <h2>WIP adding projects!</h2>
+
+        <div class="row">
+            <h3 class="title">Plan Sensitivity</h3>
+            <p class="details">
+                The experiments team ran a short A/B test to redirect ineligible users to our /premium page to
+                view all our plans. One functionality they wanted us to add was a banner to display the plan
+                the user was on - if they were on one, and to disable ability to purchase. This required some 
+                changes to our components and extra logic to be added in Symfony serving our premium page.
+            </p>
+            <div class="col-sm-6">
+
+            </div>
+            <div class="col-sm-6">
+                <ul class="tasks">
+                    <li>Support ineligibility messaging - extended functionality of the component used to display plans to support the error message banner. 
+                        Made the changes required in Symfony to receive the response from checkout to render the error message.</li>
+                    <li>Added the "Your Current Plan" banner to our flavour pages - extended the components in our library to support showing the “Your Current Plan”
+                        banner and remove functionality to purchase the plan. Changes made to Symfony to query users' current plan to pass this information to the components.
+                    <li>Documentation - handoff work to Technical Execustion Managers on how to configure the new fields in the components.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="row">
+            <h3 class="title">Google Mini Camapigns</h3>
+            <p class="details">The Google Mini campaigns I have been heavily involved in with the Summer 2019 and 2020 campaigns. I worked prodominently on logic
+                to check for user's eligbility coming into the checkout page to purchase the plan and forwarding the user to the correct recipt
+                page after they have purchased the plan.
+            </p>
+            <div class="col-sm-6">
+                <h4 class="subtitle">Google Home Mini</h4>
+                <ul class="tasks">
+                    <li>Configuring the camapaign in our CMS tool to take over our premium pages when live</li>
+                    <li>Working with design on how the premium product, error and receipt pages should look</li>
+                    <li>Creating Google Mini specific receipt pages</li>
+                </ul>
+                <h4 class="subtitle">Google Nest Mini</h4>
+                <ul class="tasks">
+                    <li>Removing all hard-coded information to use information passed back from API's</li>
+                    <li>Tested account-linking flow and liaised with team handling the backend to understand how urls are formatted and forwarded</li>
+                    <li>Added parameters to account linking urls so you can identify which country it is coming from</li>
+                    <li>Using our component library on the homepage and chekout receipt pages for the campaign</li>
+                </ul>
+
+                <h4 class="subtitle">Tasks Completed as a Team</h4>
+                <ul class="tasks">
+                    <li>Setting up the logic to check user's eligibility going to the checkout page from our premium product pages</li>
+                    <li>Set-up redirection of ineligible users to the correct error page depending on their account</li>
+                    <li>Extend logic checks for accounts eligible for the campaign on pages we own</li>
+                    <li>Update captcha languages to the new markets we are launching in</li>
+                </ul>
+            </div>
+            <div class="col-sm-6 image-container">
+                <img class="img-responsive" src="https://live.staticflickr.com/65535/50635615377_7f053c0c6a_z.jpg">
+            </div>  
+        </div>
+
+        <footer class="mastfoot mt-auto">
+            <div class="inner">
+                Contact Me:
+                <a href="mailto:winsomeyuen@hotmail.com?Subject=Portfolio%20Enquiry" target="_top">Send Mail</a><br/>
+                <a href="https://twitter.com/WinsomeYuen"><i class="fab fa-twitter"></i></a>
+                <a href="https://github.com/WinsomeYuen"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/winsomeyuen/"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://www.youtube.com/user/WinsomeYuen"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+    </div>
+</div>
+
+    <script>
+      function goBack() {
+          window.history.back();
+      }
+    </script>
+</body>
+</html>

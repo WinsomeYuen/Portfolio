@@ -33,10 +33,10 @@
         </div>
         <div class="col">
             <!-- Card -->
-            <div class="card" id="water-watch">
+            <div class="card" id="spotify">
                 <!-- Card image -->
                 <div class="view overlay">
-                    <img class="card-img-top" src="https://c2.staticflickr.com/2/1884/44498539521_1f8d142b70_b.jpg" alt="Card image cap">
+                    <img class="card-img-top" src="https://live.staticflickr.com/65535/50634536568_cbc2f6abef_b.jpg" alt="Card image cap">
                     <a href="#!">
                         <div class="mask rgba-white-slight"></div>
                     </a>
@@ -44,11 +44,11 @@
                 <!-- Card content -->
                 <div class="card-body">
                     <!-- Title -->
-                    <h3 class="card-title">Water Watch</h3>
+                    <h3 class="card-title">Spotify</h3>
                     <!-- Text -->
-                    <p style="font-size: 15px" class="card-text">A Weather App for people who participate in a range of watersports to plan their day.</p>
+                    <p style="font-size: 15px" class="card-text">I've worked on a range of projects from campaigns to improving our tech stack.</p>
                     <!-- Button -->
-                    <a href="pages/individual-work/weatherapp.html" class="btn btn-lg">View Project</a>
+                    <a href="pages/individual-work/spotify.html" class="btn btn-lg">View Project</a>
                 </div>
             </div>
             <!-- Card -->
@@ -84,18 +84,18 @@
     window.addEventListener("resize", setHeight, false);
 
     function setHeight(){
-        var projects = [document.getElementById('water-watch').offsetHeight, 
+        var projects = [document.getElementById('spotify').offsetHeight, 
                 document.getElementById('degree7').offsetHeight, 
                 document.getElementById('gtb').offsetHeight];
         var max = projects.slice().sort(function(a,b){return a - b}).pop();
         var intFrameWidth = window.innerWidth;
 
         if(intFrameWidth > 700){
-            document.getElementById('water-watch').style.height = max + "px";
+            document.getElementById('spotify').style.height = max + "px";
             document.getElementById('degree7').style.height = max + "px";
             document.getElementById('gtb').style.height = max + "px";
         } else {
-            document.getElementById('water-watch').style.height = "auto";
+            document.getElementById('spotify').style.height = "auto";
             document.getElementById('degree7').style.height = "auto";
             document.getElementById('gtb').style.height = "auto";
         }
